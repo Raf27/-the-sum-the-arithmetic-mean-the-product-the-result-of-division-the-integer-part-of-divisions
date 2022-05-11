@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a,b;
+
+    // read
+
+    cout<<"First number: "; cin>>a;
+    cout<<"Second number: "; cin>>b;
+
+    // display 
+
+    cout<<"sum: "<<a + b<<endl;
+    cout<<"arithmetic mean: "<<(float)(a + b)/2<<endl;
+    cout<<"product: "<<a * b<<endl;
+    cout<<"sin: "<<(float)a / b<<endl;
+    cout<<"rest: "<<a % b<<endl;
+
+    return 0;
+}
